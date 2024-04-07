@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Please rate our store from 1 to 5")
 
 	reader := bufio.NewReader(os.Stdin)
-	f
+
 	input, _ := reader.ReadString('\n')
 	fmt.Println("Thanks for rating, ", input)
 
