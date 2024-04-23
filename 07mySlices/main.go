@@ -41,5 +41,6 @@ func main()  {
 	fmt.Println(highScores)
 
 	fmt.Println(sort.IntsAreSorted(highScores))
-		
+
+	
 }
